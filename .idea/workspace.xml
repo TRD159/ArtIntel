@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ea6dfd-730c-4a49-a06f-f1f3939a15ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Connect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArtIntel/CodeIsHere/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArtIntel/CodeIsHere/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArtIntel/CodeIsHere/Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArtIntel/CodeIsHere/Frame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArtIntel/CodeIsHere/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArtIntel/CodeIsHere/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArtIntel/CodeIsHere/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArtIntel/CodeIsHere/Panel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeIsHere/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeIsHere/Connect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeIsHere/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeIsHere/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,23 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CodeIsHere/Connect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="-90">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodeIsHere/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#84#85#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +56,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Connect.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/CodeIsHere/Connect.java" />
         <option value="$PROJECT_DIR$/src/CodeIsHere/Main.java" />
+        <option value="$PROJECT_DIR$/src/CodeIsHere/Connect.java" />
       </list>
     </option>
   </component>
@@ -89,6 +94,13 @@
               <item name="ArtIntel" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArtIntel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeIsHere" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArtIntel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArtIntel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeIsHere" type="462c0819:PsiDirectoryNode" />
               <item name="Connect.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -98,7 +110,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545173804014" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545176416339" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -144,10 +156,19 @@
       <option name="presentableId" value="Default" />
       <updated>1545149379063</updated>
     </task>
+    <task id="LOCAL-00001" summary="Got the project as a whole working">
+      <created>1545173833269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545173833269</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="174" y="0" width="1256" height="851" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32023412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -158,7 +179,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32962447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -178,6 +199,10 @@
       <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Got the project as a whole working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got the project as a whole working" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -196,20 +221,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeIsHere/Connect.java">
+    <entry file="file://$PROJECT_DIR$/src/CodeIsHere/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeIsHere/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/CodeIsHere/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="-90">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
