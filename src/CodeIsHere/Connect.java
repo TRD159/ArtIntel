@@ -46,7 +46,7 @@ class Panel extends JPanel {
 }
 
 class Board {
-	public static final int X = 8, Y = 7, Z = 8;
+	public static final int X = 8, Y = 7, Z = 8; //Z is the boards, Y is the rows, X is the columns
 	public static final char TIE = 'T', RED = 'R', BLUE = 'B', EMPTY = '-', PLAYING = '-';
 
 	private char[][][] board;
@@ -68,7 +68,94 @@ class Board {
 		this.board = b.board;
 		this.winner = b.winner;
 	}
+
+	public char[][][] getBoard() {
+		return board;
+	}
+
+	public void setBoard(char[][][] board) {
+		this.board = board;
+	}
 }
+
+class Location {
+	int x, y, z;
+
+	Location(int x, int y, int z){
+		this.x = x;
+		this.y = y;
+		this.z = z;
+	}
+
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public int getZ() {
+		return z;
+	}
+
+	@Override
+	public String toString() {
+		return "(" +
+				"x=" + x +
+				", y=" + y +
+				", z=" + z +
+				')';
+	}
+}
+
+class Move {
+	private int z, y, x;
+	char[][][] b;
+	private boolean possible = true;
+
+	Move(int z, int x, char[][][] b) {
+		this.z = z;
+		this.x = x;
+
+		this.b = b;
+
+		isPossible:
+		{
+			for (int r = b[0].length; r >= 0; r--) {
+				if (b[z][r][x] == '-') {
+					y = r;
+					break isPossible;
+				}
+			}
+			possible = false;
+		}
+	}
+
+	@Override
+	public String toString() {
+		return "(" +
+				"Board " + z +
+				", Row " + y +
+				", Column" + x +
+				')';
+	}
+
+
+
+	public int getZ() {
+		return z;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public int getX() {
+		return x;
+	}
+}
+
 	/*
 
 	Please keep with the convention we've set up and make changes in the same file.
